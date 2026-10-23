@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3 Office International | Premier Real Estate Investment</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        beige: {
+                            50: '#FDFCF9',
+                            100: '#F7F4EE',
+                            200: '#EFECE6',
+                            300: '#D8CFBC',
+                            400: '#C5A880',
+                            500: '#A88B60',
+                        },
+                        obsidian: {
+                            800: '#242428',
+                            900: '#18181A',
+                            950: '#0F0F10',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0F0F10;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C5A880;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #A88B60;
+        }
+        
+        .beige-gradient-text {
+            background: linear-gradient(135deg, #F7F4EE 0%, #D8CFBC 50%, #C5A880 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-border-glow {
+            box-shadow: 0 0 25px rgba(197, 168, 128, 0.12);
+        }
+
+        .slide-transition {
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="bg-obsidian-950 text-beige-100 font-sans antialiased selection:bg-beige-400 selection:text-obsidian-950 flex flex-col min-h-screen">
+
+    <!-- Top Contact Announcement Bar -->
+    <div class="bg-obsidian-900 border-b border-beige-400/20 text-xs py-2.5 px-4 text-beige-200">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center space-x-6">
+                <a href="tel:+13472610449" class="hover:text-beige-400 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-beige-400 text-xs"></i>
+                    <span>+1 (347) 261-0449</span>
+                </a>
+                <a href="mailto:M3officeinternational@gmail.com" class="hover:text-beige-400 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-envelope text-beige-400 text-xs"></i>
+                    <span>M3officeinternational@gmail.com</span>
+                </a>
+            </div>
+            <div class="hidden md:flex items-center gap-4 text-beige-300/80 uppercase tracking-widest text-[10px]">
+                <span>Private Advisory</span>
+                <span>•</span>
+                <span>Asset Management</span>
+                <span>•</span>
+                <span>Portfolio Acquisitions</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-40 bg-obsidian-950/90 backdrop-blur-md border-b border-beige-400/15 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
+            
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded bg-obsidian-900 border border-beige-400/30 flex items-center justify-center p-2 group-hover:border-beige-400 transition-colors">
+                    <svg viewBox="0 0 100 100" class="w-full h-full fill-current text-beige-400">
+                        <path d="M20 90 V 30 L 50 10 L 80 30 V 90 H 65 V 50 H 35 V 90 Z" fill="none" stroke="currentColor" stroke-width="4"/>
+                        <path d="M35 35 H 45 V 45 H 35 Z M 55 35 H 65 V 45 H 55 Z M 35 55 H 45 V 65 H 35 Z M 55 55 H 65 V 65 H 55 Z" fill="currentColor"/>
+                        <line x1="10" y1="90" x2="90" y2="90" stroke="currentColor" stroke-width="4"/>
+                    </svg>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif text-2xl tracking-wider text-beige-50 font-bold uppercase leading-none group-hover:text-beige-300 transition-colors">
+                        M3 Office
+                    </span>
+                    <span class="text-[9px] uppercase tracking-[0.25em] text-beige-400 font-semibold mt-1">
+                        International Real Estate
+                    </span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8 text-xs uppercase tracking-widest font-medium text-beige-200">
+                <a href="#hero" class="hover:text-beige-400 transition-colors">Overview</a>
+                <a href="#about" class="hover:text-beige-400 transition-colors">About Us</a>
+                <a href="#properties" class="hover:text-beige-400 transition-colors">Properties</a>
+                <a href="#contact" class="hover:text-beige-400 transition-colors">Contact</a>
+            </nav>
+
+            <!-- Action CTA -->
+            <div class="hidden lg:flex items-center gap-4">
+                <button onclick="openConsultationModal('General Portfolio Consultation')" class="px-6 py-2.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all transform hover:-translate-y-0.5">
+                    Private Consultation
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button onclick="toggleMobileMenu()" class="md:hidden text-beige-100 hover:text-beige-400 p-2 focus:outline-none" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-obsidian-900 border-b border-beige-400/15 px-6 py-6 space-y-4">
+            <a href="#hero" onclick="toggleMobileMenu()" class="block text-xs uppercase tracking-widest text-beige-100 hover:text-beige-400">Overview</a>
+            <a href="#about" onclick="toggleMobileMenu()" class="block text-xs uppercase tracking-widest text-beige-100 hover:text-beige-400">About Us</a>
+            <a href="#properties" onclick="toggleMobileMenu()" class="block text-xs uppercase tracking-widest text-beige-100 hover:text-beige-400">Properties</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block text-xs uppercase tracking-widest text-beige-100 hover:text-beige-400">Contact</a>
+            <div class="pt-4 border-t border-beige-400/15 flex flex-col gap-3">
+                <button onclick="openConsultationModal('General Consultation'); toggleMobileMenu();" class="w-full py-3 bg-beige-100 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded">
+                    Private Consultation
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO / FIRST PAGE SECTION WITH PROPERTY BACKGROUND -->
+        <section id="hero" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-obsidian-950 py-24 px-4">
+            
+            <!-- Full-Bleed Modern Property Background Image -->
+            <div class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transform scale-105 transition-transform duration-1000" 
+                 style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=2000');">
+            </div>
+
+            <!-- Dark Translucent Overlay for Legibility & Aesthetics -->
+            <div class="absolute inset-0 z-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/85 to-obsidian-950/70"></div>
+            <div class="absolute inset-0 z-0 bg-obsidian-950/40 backdrop-blur-[1px]"></div>
+
+            <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
+                
+                <!-- Tagline Pill -->
+                <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-obsidian-900/90 border border-beige-400/30 text-beige-300 text-xs font-medium uppercase tracking-widest shadow-xl">
+                    <span class="w-2 h-2 rounded-full bg-beige-400 animate-pulse"></span>
+                    Architectural Excellence &amp; Investment
+                </div>
+
+                <!-- Main Hero Headline -->
+                <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-light tracking-tight text-beige-50 leading-tight">
+                    Discover Exceptional <br/>
+                    <span class="font-normal italic beige-gradient-text">Home Investment</span>
+                </h1>
+
+                <!-- Brand Narrative (About Us Integrated) -->
+                <p id="about" class="max-w-3xl mx-auto text-beige-200 text-base sm:text-lg md:text-xl font-light leading-relaxed bg-obsidian-900/60 p-6 sm:p-8 rounded-2xl border border-beige-400/15 backdrop-blur-md">
+                    At <strong class="text-beige-50 font-medium">M3 Office International</strong>, we connect visionary investors with America’s most distinctive luxury residences. Our curated portfolio brings together architectural mastery, prime high-growth US locations, and unmatched long-term investment stability.
+                </p>
+
+                <!-- Hero Action Buttons -->
+                <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+                    <a href="#properties" class="w-full sm:w-auto px-8 py-4 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all shadow-xl">
+                        Explore Portfolio Below
+                    </a>
+                    <a href="#contact" class="w-full sm:w-auto px-8 py-4 bg-obsidian-900/90 hover:bg-obsidian-800 text-beige-100 border border-beige-400/30 font-semibold text-xs uppercase tracking-widest rounded transition-all backdrop-blur-md flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-paper-plane text-beige-400"></i>
+                        Direct Advisory
+                    </a>
+                </div>
+
+                <!-- Prominent Contact Cards on First Page -->
+                <div class="pt-8 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+                    <a href="tel:+13472610449" class="p-4 rounded-xl bg-obsidian-900/90 border border-beige-400/20 hover:border-beige-400 transition-all flex items-center justify-center gap-4 group backdrop-blur-md">
+                        <div class="w-10 h-10 rounded-full bg-beige-400/10 flex items-center justify-center text-beige-400 group-hover:bg-beige-400 group-hover:text-obsidian-950 transition-all">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-[10px] uppercase tracking-widest text-beige-400 font-semibold">Direct Phone Line</p>
+                            <p class="text-sm font-semibold text-beige-100 group-hover:text-beige-300 transition-colors">+1 (347) 261-0449</p>
+                        </div>
+                    </a>
+
+                    <a href="mailto:M3officeinternational@gmail.com" class="p-4 rounded-xl bg-obsidian-900/90 border border-beige-400/20 hover:border-beige-400 transition-all flex items-center justify-center gap-4 group backdrop-blur-md">
+                        <div class="w-10 h-10 rounded-full bg-beige-400/10 flex items-center justify-center text-beige-400 group-hover:bg-beige-400 group-hover:text-obsidian-950 transition-all">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text-left overflow-hidden">
+                            <p class="text-[10px] uppercase tracking-widest text-beige-400 font-semibold">Executive Email</p>
+                            <p class="text-xs sm:text-sm font-semibold text-beige-100 group-hover:text-beige-300 transition-colors truncate">M3officeinternational@gmail.com</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- STATS & HIGHLIGHTS BAR -->
+        <section class="bg-obsidian-900 border-y border-beige-400/15 py-10 px-4">
+            <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="space-y-1">
+                    <p class="font-serif text-3xl sm:text-4xl text-beige-300 font-light">Prime US</p>
+                    <p class="text-[10px] uppercase tracking-widest text-beige-400">Key Estate Markets</p>
+                </div>
+                <div class="space-y-1">
+                    <p class="font-serif text-3xl sm:text-4xl text-beige-300 font-light">100%</p>
+                    <p class="text-[10px] uppercase tracking-widest text-beige-400">Architectural Focus</p>
+                </div>
+                <div class="space-y-1">
+                    <p class="font-serif text-3xl sm:text-4xl text-beige-300 font-light">Private</p>
+                    <p class="text-[10px] uppercase tracking-widest text-beige-400">Portfolio Access</p>
+                </div>
+                <div class="space-y-1">
+                    <p class="font-serif text-3xl sm:text-4xl text-beige-300 font-light">Bespoke</p>
+                    <p class="text-[10px] uppercase tracking-widest text-beige-400">Advisory Strategy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROPERTY LISTINGS SECTION (Vertical Stack of 4) -->
+        <section id="properties" class="py-24 bg-obsidian-950 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto space-y-16">
+                
+                <!-- Section Title -->
+                <div class="text-center space-y-4 max-w-2xl mx-auto">
+                    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-beige-400">Featured Holdings</p>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-light text-beige-50">Private Residence Collection</h2>
+                    <div class="w-16 h-0.5 bg-beige-400 mx-auto"></div>
+                    <p class="text-sm text-beige-300 font-light">
+                        Explore our 4 premier estates. Each features an interactive 6-slide gallery focusing purely on architectural design, interior finishes, kitchens, master suites, and pool amenities.
+                    </p>
+                </div>
+
+                <!-- VERTICAL PROPERTY STACK -->
+                <div class="space-y-20">
+
+                    <!-- PROPERTY 1: Beverly Hills Modern Estate -->
+                    <article class="bg-obsidian-900 border border-beige-400/20 rounded-2xl overflow-hidden shadow-2xl hover:border-beige-400/40 transition-all">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+                            
+                            <!-- Slideshow Section (6 Pure Architectural Slides) -->
+                            <div class="lg:col-span-7 relative bg-obsidian-950 group select-none min-h-[350px] sm:min-h-[480px] flex flex-col justify-between">
+                                <div class="relative w-full h-full min-h-[350px] sm:min-h-[480px] overflow-hidden">
+                                    
+                                    <!-- Slide Track 1 -->
+                                    <div id="track-p1" class="absolute inset-0 flex slide-transition">
+                                        <!-- Slide 1: Grand Facade Exterior -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 0)">
+                                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1200" alt="Grand Architectural Facade" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Grand Architectural Facade
+                                            </div>
+                                        </div>
+                                        <!-- Slide 2: Chef's Kitchen -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 1)">
+                                            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200" alt="Gourmet Chef's Kitchen" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Gourmet Chef's Kitchen
+                                            </div>
+                                        </div>
+                                        <!-- Slide 3: Master Suite Bedroom -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 2)">
+                                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=1200" alt="Master Suite Bedroom" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Master Suite Bedroom
+                                            </div>
+                                        </div>
+                                        <!-- Slide 4: Infinity Edge Pool -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 3)">
+                                            <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1200" alt="Private Infinity Edge Pool" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Private Infinity Edge Pool
+                                            </div>
+                                        </div>
+                                        <!-- Slide 5: Architectural Living Salon -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 4)">
+                                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200" alt="Architectural Living Salon" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Architectural Living Salon
+                                            </div>
+                                        </div>
+                                        <!-- Slide 6: Private Wine Lounge -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p1', 5)">
+                                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200" alt="Wine Tasting Lounge" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Wine Tasting Lounge
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Counter Overlay -->
+                                    <div class="absolute top-4 right-4 z-10 bg-obsidian-950/85 backdrop-blur-md text-beige-100 text-xs px-3 py-1 rounded-full border border-beige-400/20 font-mono">
+                                        <span id="counter-p1">1</span> / 6
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <button onclick="prevSlide('p1')" class="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Previous Slide">
+                                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                                    </button>
+                                    <button onclick="nextSlide('p1')" class="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Next Slide">
+                                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                                    </button>
+
+                                    <!-- Dots -->
+                                    <div class="absolute bottom-4 right-4 z-10 flex space-x-1.5" id="dots-p1">
+                                        <button onclick="goToSlide('p1', 0)" class="w-2 h-2 rounded-full bg-beige-400 transition-all"></button>
+                                        <button onclick="goToSlide('p1', 1)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p1', 2)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p1', 3)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p1', 4)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p1', 5)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Property Info -->
+                            <div class="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-2 text-beige-400 text-xs uppercase tracking-widest font-semibold">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Beverly Hills, California</span>
+                                    </div>
+                                    <h3 class="font-serif text-2xl sm:text-3xl font-light text-beige-50">Beverly Hills Modern Estate</h3>
+                                    <p class="text-sm text-beige-300 font-light leading-relaxed">
+                                        An architectural masterpiece featuring floor-to-ceiling glass, floating cantilevered staircases, custom Italian cabinetry, and breathtaking panoramic sunset views over the canyon.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-3 border-y border-beige-400/15 py-4 text-center">
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bedrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">6 Beds</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bathrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">8 Baths</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Interior</p>
+                                        <p class="text-lg font-serif text-beige-100">11,200 Sq Ft</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Lot Size</p>
+                                        <p class="text-lg font-serif text-beige-100">0.85 Acres</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Garage</p>
+                                        <p class="text-lg font-serif text-beige-100">4 Cars</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Year Built</p>
+                                        <p class="text-lg font-serif text-beige-100">2024</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Infinity Pool</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Chef's Kitchen</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Smart Automation</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Wine Cellar</span>
+                                </div>
+
+                                <button onclick="openConsultationModal('Beverly Hills Modern Estate')" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all">
+                                    Inquire Concerning Acquisition
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROPERTY 2: Miami Waterfront Sanctuary -->
+                    <article class="bg-obsidian-900 border border-beige-400/20 rounded-2xl overflow-hidden shadow-2xl hover:border-beige-400/40 transition-all">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+                            
+                            <!-- Slideshow Section (6 Slides) -->
+                            <div class="lg:col-span-7 relative bg-obsidian-950 group select-none min-h-[350px] sm:min-h-[480px] flex flex-col justify-between">
+                                <div class="relative w-full h-full min-h-[350px] sm:min-h-[480px] overflow-hidden">
+                                    
+                                    <!-- Slide Track 2 -->
+                                    <div id="track-p2" class="absolute inset-0 flex slide-transition">
+                                        <!-- Slide 1: Waterfront Architecture -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 0)">
+                                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200" alt="Waterfront Architectural Facade" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Waterfront Architectural Facade
+                                            </div>
+                                        </div>
+                                        <!-- Slide 2: Gourmet Kitchen -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 1)">
+                                            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200" alt="Marble Island Kitchen" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Marble Island Kitchen
+                                            </div>
+                                        </div>
+                                        <!-- Slide 3: Bedroom View -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 2)">
+                                            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1200" alt="Bayfront Primary Bedroom" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Bayfront Primary Bedroom
+                                            </div>
+                                        </div>
+                                        <!-- Slide 4: Swimming Pool -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 3)">
+                                            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1200" alt="Private Dock & Swimming Pool" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Private Dock & Swimming Pool
+                                            </div>
+                                        </div>
+                                        <!-- Slide 5: Open Salon Living -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 4)">
+                                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1200" alt="Open Salon Living Space" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Open Salon Living Space
+                                            </div>
+                                        </div>
+                                        <!-- Slide 6: Spa Bathroom -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p2', 5)">
+                                            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200" alt="En-Suite Luxury Spa Bath" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                En-Suite Luxury Spa Bath
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="absolute top-4 right-4 z-10 bg-obsidian-950/85 backdrop-blur-md text-beige-100 text-xs px-3 py-1 rounded-full border border-beige-400/20 font-mono">
+                                        <span id="counter-p2">1</span> / 6
+                                    </div>
+
+                                    <button onclick="prevSlide('p2')" class="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Previous Slide">
+                                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                                    </button>
+                                    <button onclick="nextSlide('p2')" class="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Next Slide">
+                                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                                    </button>
+
+                                    <div class="absolute bottom-4 right-4 z-10 flex space-x-1.5" id="dots-p2">
+                                        <button onclick="goToSlide('p2', 0)" class="w-2 h-2 rounded-full bg-beige-400 transition-all"></button>
+                                        <button onclick="goToSlide('p2', 1)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p2', 2)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p2', 3)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p2', 4)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p2', 5)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Property Info -->
+                            <div class="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-2 text-beige-400 text-xs uppercase tracking-widest font-semibold">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Miami Beach, Florida</span>
+                                    </div>
+                                    <h3 class="font-serif text-2xl sm:text-3xl font-light text-beige-50">Miami Waterfront Sanctuary</h3>
+                                    <p class="text-sm text-beige-300 font-light leading-relaxed">
+                                        Direct Biscayne Bay frontage featuring deep-water yacht dockage, teak poolside lounge terraces, open living saloons, and custom Italian marble finishes.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-3 border-y border-beige-400/15 py-4 text-center">
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bedrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">5 Beds</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bathrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">7 Baths</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Interior</p>
+                                        <p class="text-lg font-serif text-beige-100">8,900 Sq Ft</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Waterfront</p>
+                                        <p class="text-lg font-serif text-beige-100">120 Ft Dock</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Garage</p>
+                                        <p class="text-lg font-serif text-beige-100">3 Cars</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Year Built</p>
+                                        <p class="text-lg font-serif text-beige-100">2023</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Private Yacht Dock</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Bayfront Pool</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Outdoor Kitchen</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Rooftop Lounge</span>
+                                </div>
+
+                                <button onclick="openConsultationModal('Miami Waterfront Sanctuary')" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all">
+                                    Inquire Concerning Acquisition
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROPERTY 3: Aspen Alpine Manor -->
+                    <article class="bg-obsidian-900 border border-beige-400/20 rounded-2xl overflow-hidden shadow-2xl hover:border-beige-400/40 transition-all">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+                            
+                            <!-- Slideshow Section (6 Slides) -->
+                            <div class="lg:col-span-7 relative bg-obsidian-950 group select-none min-h-[350px] sm:min-h-[480px] flex flex-col justify-between">
+                                <div class="relative w-full h-full min-h-[350px] sm:min-h-[480px] overflow-hidden">
+                                    
+                                    <!-- Slide Track 3 -->
+                                    <div id="track-p3" class="absolute inset-0 flex slide-transition">
+                                        <!-- Slide 1: Alpine Facade -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 0)">
+                                            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=1200" alt="Mountain Estate Facade" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Mountain Estate Facade
+                                            </div>
+                                        </div>
+                                        <!-- Slide 2: Timber Kitchen -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 1)">
+                                            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&q=80&w=1200" alt="Custom Timber & Granite Kitchen" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Custom Timber & Granite Kitchen
+                                            </div>
+                                        </div>
+                                        <!-- Slide 3: Hearth Room -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 2)">
+                                            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&q=80&w=1200" alt="Great Room with Stone Fireplace" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Great Room with Stone Fireplace
+                                            </div>
+                                        </div>
+                                        <!-- Slide 4: Alpine Bedroom -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 3)">
+                                            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200" alt="Alpine Master Suite" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Alpine Master Suite
+                                            </div>
+                                        </div>
+                                        <!-- Slide 5: Heated Mountain Pool -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 4)">
+                                            <img src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?auto=format&fit=crop&q=80&w=1200" alt="Heated Alpine Pool & Spa" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Heated Alpine Pool & Spa
+                                            </div>
+                                        </div>
+                                        <!-- Slide 6: Wellness Bath -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p3', 5)">
+                                            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200" alt="En-Suite Wellness Spa Bath" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                En-Suite Wellness Spa Bath
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="absolute top-4 right-4 z-10 bg-obsidian-950/85 backdrop-blur-md text-beige-100 text-xs px-3 py-1 rounded-full border border-beige-400/20 font-mono">
+                                        <span id="counter-p3">1</span> / 6
+                                    </div>
+
+                                    <button onclick="prevSlide('p3')" class="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Previous Slide">
+                                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                                    </button>
+                                    <button onclick="nextSlide('p3')" class="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Next Slide">
+                                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                                    </button>
+
+                                    <div class="absolute bottom-4 right-4 z-10 flex space-x-1.5" id="dots-p3">
+                                        <button onclick="goToSlide('p3', 0)" class="w-2 h-2 rounded-full bg-beige-400 transition-all"></button>
+                                        <button onclick="goToSlide('p3', 1)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p3', 2)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p3', 3)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p3', 4)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p3', 5)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Property Info -->
+                            <div class="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-2 text-beige-400 text-xs uppercase tracking-widest font-semibold">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Aspen, Colorado</span>
+                                    </div>
+                                    <h3 class="font-serif text-2xl sm:text-3xl font-light text-beige-50">Aspen Alpine Manor</h3>
+                                    <p class="text-sm text-beige-300 font-light leading-relaxed">
+                                        Ski-in/ski-out mountain sanctuary crafted with reclaimed heavy timber, double-height hearth stone fireplace, heated outdoor terraces, and mountain pass views.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-3 border-y border-beige-400/15 py-4 text-center">
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bedrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">7 Beds</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bathrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">9 Baths</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Interior</p>
+                                        <p class="text-lg font-serif text-beige-100">12,500 Sq Ft</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Lot Size</p>
+                                        <p class="text-lg font-serif text-beige-100">2.4 Acres</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Garage</p>
+                                        <p class="text-lg font-serif text-beige-100">4 Cars</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Year Built</p>
+                                        <p class="text-lg font-serif text-beige-100">2022</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Ski-In/Ski-Out</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Heated Terraces</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Wine Cellar</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Private Spa</span>
+                                </div>
+
+                                <button onclick="openConsultationModal('Aspen Alpine Manor')" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all">
+                                    Inquire Concerning Acquisition
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROPERTY 4: Austin Hillside Villa -->
+                    <article class="bg-obsidian-900 border border-beige-400/20 rounded-2xl overflow-hidden shadow-2xl hover:border-beige-400/40 transition-all">
+                        <div class="grid grid-cols-1 lg:grid-cols-12 gap-0">
+                            
+                            <!-- Slideshow Section (6 Slides) -->
+                            <div class="lg:col-span-7 relative bg-obsidian-950 group select-none min-h-[350px] sm:min-h-[480px] flex flex-col justify-between">
+                                <div class="relative w-full h-full min-h-[350px] sm:min-h-[480px] overflow-hidden">
+                                    
+                                    <!-- Slide Track 4 -->
+                                    <div id="track-p4" class="absolute inset-0 flex slide-transition">
+                                        <!-- Slide 1: Modern Hillside Exterior -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 0)">
+                                            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1200" alt="Modern Hillside Villa Facade" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Modern Hillside Villa Facade
+                                            </div>
+                                        </div>
+                                        <!-- Slide 2: Minimalist Kitchen -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 1)">
+                                            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&q=80&w=1200" alt="Minimalist Gourmet Kitchen" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Minimalist Gourmet Kitchen
+                                            </div>
+                                        </div>
+                                        <!-- Slide 3: Suite Terrace -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 2)">
+                                            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&q=80&w=1200" alt="Primary Suite with Terrace" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Primary Suite with Terrace
+                                            </div>
+                                        </div>
+                                        <!-- Slide 4: Cantilevered Pool -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 3)">
+                                            <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1200" alt="Cantilevered Infinity Edge Pool" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Cantilevered Infinity Edge Pool
+                                            </div>
+                                        </div>
+                                        <!-- Slide 5: Glass Living Area -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 4)">
+                                            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1200" alt="Double-Height Glass Living Salon" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Double-Height Glass Living Salon
+                                            </div>
+                                        </div>
+                                        <!-- Slide 6: Covered Outdoor Terrace -->
+                                        <div class="w-full h-full flex-shrink-0 relative cursor-pointer" onclick="openLightbox('p4', 5)">
+                                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1200" alt="Covered Terrace Lounge" class="w-full h-full object-cover">
+                                            <div class="absolute bottom-4 left-4 bg-obsidian-950/85 backdrop-blur-md border border-beige-400/20 px-3 py-1.5 rounded-lg text-xs text-beige-200">
+                                                Covered Terrace Lounge
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="absolute top-4 right-4 z-10 bg-obsidian-950/85 backdrop-blur-md text-beige-100 text-xs px-3 py-1 rounded-full border border-beige-400/20 font-mono">
+                                        <span id="counter-p4">1</span> / 6
+                                    </div>
+
+                                    <button onclick="prevSlide('p4')" class="absolute left-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Previous Slide">
+                                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                                    </button>
+                                    <button onclick="nextSlide('p4')" class="absolute right-3 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-obsidian-950/80 text-beige-100 hover:bg-beige-400 hover:text-obsidian-950 border border-beige-400/20 flex items-center justify-center transition-all" aria-label="Next Slide">
+                                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                                    </button>
+
+                                    <div class="absolute bottom-4 right-4 z-10 flex space-x-1.5" id="dots-p4">
+                                        <button onclick="goToSlide('p4', 0)" class="w-2 h-2 rounded-full bg-beige-400 transition-all"></button>
+                                        <button onclick="goToSlide('p4', 1)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p4', 2)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p4', 3)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p4', 4)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                        <button onclick="goToSlide('p4', 5)" class="w-2 h-2 rounded-full bg-beige-300/30 transition-all"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Property Info -->
+                            <div class="lg:col-span-5 p-6 sm:p-8 flex flex-col justify-between space-y-6">
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-2 text-beige-400 text-xs uppercase tracking-widest font-semibold">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Austin, Texas</span>
+                                    </div>
+                                    <h3 class="font-serif text-2xl sm:text-3xl font-light text-beige-50">Austin Hillside Villa</h3>
+                                    <p class="text-sm text-beige-300 font-light leading-relaxed">
+                                        Perched high above Lake Austin, this modern estate boasts warm limestone masonry, zero-edge infinity pool, outdoor lounge hearth, and hill country vistas.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-3 gap-3 border-y border-beige-400/15 py-4 text-center">
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bedrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">5 Beds</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Bathrooms</p>
+                                        <p class="text-lg font-serif text-beige-100">6 Baths</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Interior</p>
+                                        <p class="text-lg font-serif text-beige-100">7,800 Sq Ft</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Lot Size</p>
+                                        <p class="text-lg font-serif text-beige-100">1.2 Acres</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Garage</p>
+                                        <p class="text-lg font-serif text-beige-100">3 Cars</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[10px] uppercase tracking-wider text-beige-400">Year Built</p>
+                                        <p class="text-lg font-serif text-beige-100">2024</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Lake Views</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Infinity Pool</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Smart Living</span>
+                                    <span class="px-3 py-1 bg-obsidian-950 border border-beige-400/15 rounded-full text-xs text-beige-200">Outdoor Kitchen</span>
+                                </div>
+
+                                <button onclick="openConsultationModal('Austin Hillside Villa')" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded transition-all">
+                                    Inquire Concerning Acquisition
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- DIRECT ADVISORY CONTACT SECTION -->
+        <section id="contact" class="py-24 bg-obsidian-900 border-t border-beige-400/15 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto space-y-12">
+                <div class="text-center space-y-4">
+                    <p class="text-xs font-semibold uppercase tracking-[0.3em] text-beige-400">Confidential Advisory</p>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-light text-beige-50">Initiate Private Dialogue</h2>
+                    <div class="w-16 h-0.5 bg-beige-400 mx-auto"></div>
+                    <p class="text-sm text-beige-300 font-light max-w-xl mx-auto">
+                        Connect directly with M3 Office International regarding US real estate acquisitions, private portfolio management, or custom investment advisory.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                    
+                    <!-- Direct Contact Information Card -->
+                    <div class="space-y-6">
+                        <div class="p-6 sm:p-8 rounded-2xl bg-obsidian-950 border border-beige-400/20 space-y-6">
+                            <h3 class="font-serif text-2xl text-beige-50">Direct Representation</h3>
+                            
+                            <a href="tel:+13472610449" class="flex items-center gap-4 text-beige-200 hover:text-beige-400 transition-colors group">
+                                <div class="w-12 h-12 rounded-full bg-beige-400/10 flex items-center justify-center text-beige-400 group-hover:bg-beige-400 group-hover:text-obsidian-950 transition-all">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div>
+                                    <p class="text-[10px] uppercase tracking-wider text-beige-400 font-semibold">Telephone Line</p>
+                                    <p class="text-base font-semibold">+1 (347) 261-0449</p>
+                                </div>
+                            </a>
+
+                            <a href="mailto:M3officeinternational@gmail.com" class="flex items-center gap-4 text-beige-200 hover:text-beige-400 transition-colors group">
+                                <div class="w-12 h-12 rounded-full bg-beige-400/10 flex items-center justify-center text-beige-400 group-hover:bg-beige-400 group-hover:text-obsidian-950 transition-all">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="overflow-hidden">
+                                    <p class="text-[10px] uppercase tracking-wider text-beige-400 font-semibold">Email Address</p>
+                                    <p class="text-xs sm:text-sm font-semibold truncate">M3officeinternational@gmail.com</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-obsidian-950 border border-beige-400/15 space-y-3">
+                            <h4 class="text-xs uppercase tracking-widest text-beige-400 font-semibold">Private Advisory Guarantees</h4>
+                            <ul class="text-xs text-beige-300 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-beige-400 text-[10px]"></i> Strict Non-Disclosure & Privacy Assurance</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-beige-400 text-[10px]"></i> Direct Access to Off-Market Estates</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-beige-400 text-[10px]"></i> Bespoke Acquisition Due Diligence</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Advisory Form -->
+                    <form onsubmit="handleFormSubmit(event)" class="bg-obsidian-950 border border-beige-400/20 p-6 sm:p-8 rounded-2xl space-y-4">
+                        <h3 class="font-serif text-2xl text-beige-50 mb-2">Advisory Form</h3>
+                        
+                        <div>
+                            <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Full Name</label>
+                            <input type="text" required placeholder="Client Name" class="w-full px-4 py-3 bg-obsidian-900 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Email Address</label>
+                            <input type="email" required placeholder="client@domain.com" class="w-full px-4 py-3 bg-obsidian-900 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Phone Number</label>
+                            <input type="tel" placeholder="+1 (000) 000-0000" class="w-full px-4 py-3 bg-obsidian-900 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Inquiry Details</label>
+                            <textarea rows="3" required placeholder="Outline target property or investment parameters..." class="w-full px-4 py-3 bg-obsidian-900 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded-lg transition-all">
+                            Submit Advisory Request
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-obsidian-950 border-t border-beige-400/15 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+            
+            <!-- Brand Info -->
+            <div class="space-y-2">
+                <div class="flex items-center justify-center md:justify-start gap-3">
+                    <div class="w-8 h-8 rounded bg-obsidian-900 border border-beige-400/30 flex items-center justify-center p-1.5">
+                        <svg viewBox="0 0 100 100" class="w-full h-full fill-current text-beige-400">
+                            <path d="M20 90 V 30 L 50 10 L 80 30 V 90 H 65 V 50 H 35 V 90 Z" fill="none" stroke="currentColor" stroke-width="4"/>
+                        </svg>
+                    </div>
+                    <span class="font-serif text-xl font-bold uppercase tracking-wider text-beige-50">M3 Office International</span>
+                </div>
+                <p class="text-xs text-beige-400">Premier Real Estate &amp; Property Investment Holdings</p>
+            </div>
+
+            <!-- Direct Contact Info in Footer -->
+            <div class="flex flex-col sm:flex-row items-center gap-6 text-xs text-beige-300">
+                <a href="tel:+13472610449" class="hover:text-beige-400 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-beige-400"></i>
+                    <span>+1 (347) 261-0449</span>
+                </a>
+                <a href="mailto:M3officeinternational@gmail.com" class="hover:text-beige-400 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-envelope text-beige-400"></i>
+                    <span>M3officeinternational@gmail.com</span>
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-xs text-beige-400 font-light">
+                &copy; 2026 M3 Office International. All Rights Reserved.
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- CONSULTATION MODAL -->
+    <div id="consultationModal" class="fixed inset-0 z-50 hidden bg-obsidian-950/85 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="bg-obsidian-900 border border-beige-400/30 w-full max-w-lg rounded-2xl p-6 sm:p-8 space-y-6 relative shadow-2xl">
+            
+            <button onclick="closeConsultationModal()" class="absolute top-4 right-4 text-beige-400 hover:text-beige-100 transition-colors">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+
+            <div class="space-y-2 text-center">
+                <p class="text-xs font-semibold uppercase tracking-widest text-beige-400">Acquisition Advisory</p>
+                <h3 class="font-serif text-2xl text-beige-50">Inquire Concerning Property</h3>
+                <p id="modalPropertyTitle" class="text-xs text-beige-300 font-mono"></p>
+            </div>
+
+            <form onsubmit="handleModalSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Full Name</label>
+                    <input type="text" required placeholder="Client Name" class="w-full px-4 py-2.5 bg-obsidian-950 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                </div>
+
+                <div>
+                    <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Email Address</label>
+                    <input type="email" required placeholder="client@domain.com" class="w-full px-4 py-2.5 bg-obsidian-950 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                </div>
+
+                <div>
+                    <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Phone Number</label>
+                    <input type="tel" placeholder="+1 (347) 000-0000" class="w-full px-4 py-2.5 bg-obsidian-950 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400">
+                </div>
+
+                <div>
+                    <label class="block text-[10px] uppercase tracking-wider text-beige-400 mb-1">Message / Portfolio Requirements</label>
+                    <textarea rows="3" placeholder="Specify your timeline or investment goals..." class="w-full px-4 py-2.5 bg-obsidian-950 border border-beige-400/20 rounded-lg text-sm text-beige-100 focus:outline-none focus:border-beige-400"></textarea>
+                </div>
+
+                <button type="submit" class="w-full py-3.5 bg-beige-100 hover:bg-beige-400 text-obsidian-950 font-semibold text-xs uppercase tracking-widest rounded-lg transition-all">
+                    Send Confidential Inquiry
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX MODAL FOR FULLSCREEN IMAGE VIEW -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 hidden bg-obsidian-950/95 backdrop-blur-md flex flex-col items-center justify-between p-4 sm:p-8">
+        <div class="w-full flex justify-between items-center text-beige-200">
+            <span id="lightboxCaption" class="font-serif text-lg text-beige-300"></span>
+            <button onclick="closeLightbox()" class="p-2 hover:text-beige-400 transition-colors">
+                <i class="fa-solid fa-xmark text-2xl"></i>
+            </button>
+        </div>
+
+        <div class="relative max-w-5xl max-h-[80vh] flex items-center justify-center my-auto w-full">
+            <img id="lightboxImg" src="" alt="Fullscreen architectural view" class="max-h-[75vh] max-w-full object-contain rounded-xl border border-beige-400/20 shadow-2xl">
+        </div>
+
+        <div class="text-xs text-beige-400">
+            Press ESC or click outside to close
+        </div>
+    </div>
+
+    <!-- NOTIFICATION TOAST -->
+    <div id="toastNotification" class="fixed bottom-6 right-6 z-50 hidden bg-beige-100 text-obsidian-950 font-medium px-6 py-4 rounded-xl shadow-2xl border border-beige-300 items-center gap-3">
+        <i class="fa-solid fa-circle-check text-lg text-obsidian-950"></i>
+        <span id="toastMessage" class="text-xs uppercase tracking-widest font-semibold"></span>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        const slideIndices = {
+            'p1': 0,
+            'p2': 0,
+            'p3': 0,
+            'p4': 0
+        };
+
+        const totalSlides = 6;
+
+        function updateSlide(propId) {
+            const track = document.getElementById(`track-${propId}`);
+            const counter = document.getElementById(`counter-${propId}`);
+            const dotsContainer = document.getElementById(`dots-${propId}`);
+
+            if (!track) return;
+
+            const currentIndex = slideIndices[propId];
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+            if (counter) {
+                counter.innerText = currentIndex + 1;
+            }
+
+            if (dotsContainer) {
+                const dots = dotsContainer.querySelectorAll('button');
+                dots.forEach((dot, idx) => {
+                    if (idx === currentIndex) {
+                        dot.className = 'w-2 h-2 rounded-full bg-beige-400 transition-all';
+                    } else {
+                        dot.className = 'w-2 h-2 rounded-full bg-beige-300/30 transition-all';
+                    }
+                });
+            }
+        }
+
+        function nextSlide(propId) {
+            slideIndices[propId] = (slideIndices[propId] + 1) % totalSlides;
+            updateSlide(propId);
+        }
+
+        function prevSlide(propId) {
+            slideIndices[propId] = (slideIndices[propId] - 1 + totalSlides) % totalSlides;
+            updateSlide(propId);
+        }
+
+        function goToSlide(propId, index) {
+            slideIndices[propId] = index;
+            updateSlide(propId);
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            const icon = document.getElementById('menuIcon');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+                icon.className = 'fa-solid fa-xmark text-xl';
+            } else {
+                menu.classList.add('hidden');
+                icon.className = 'fa-solid fa-bars text-xl';
+            }
+        }
+
+        function openConsultationModal(title) {
+            document.getElementById('modalPropertyTitle').innerText = title;
+            document.getElementById('consultationModal').classList.remove('hidden');
+        }
+
+        function closeConsultationModal() {
+            document.getElementById('consultationModal').classList.add('hidden');
+        }
+
+        function openLightbox(propId, slideIdx) {
+            const track = document.getElementById(`track-${propId}`);
+            if (!track) return;
+            
+            const slideElements = track.children;
+            if (slideElements[slideIdx]) {
+                const img = slideElements[slideIdx].querySelector('img');
+                const label = slideElements[slideIdx].querySelector('div');
+                
+                document.getElementById('lightboxImg').src = img.src;
+                document.getElementById('lightboxCaption').innerText = label ? label.innerText : '';
+                document.getElementById('lightboxModal').classList.remove('hidden');
+            }
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightboxModal').classList.add('hidden');
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toastNotification');
+            const toastMsg = document.getElementById('toastMessage');
+            toastMsg.innerText = msg;
+            toast.classList.remove('hidden');
+            toast.classList.add('flex');
+
+            setTimeout(() => {
+                toast.classList.add('hidden');
+                toast.classList.remove('flex');
+            }, 4000);
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            showToast("Your inquiry has been submitted to M3 Office International.");
+            e.target.reset();
+        }
+
+        function handleModalSubmit(e) {
+            e.preventDefault();
+            closeConsultationModal();
+            showToast("Inquiry submitted successfully. An executive advisor will contact you.");
+            e.target.reset();
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "Escape") {
+                closeLightbox();
+                closeConsultationModal();
+            }
+        });
+    </script>
+</body>
+</html>
